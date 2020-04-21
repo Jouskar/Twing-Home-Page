@@ -62,7 +62,7 @@ li{
 }
 
 h1{
-    color: darkorange;
+    color: red;
     font-family: cursive;
 }
 .list_categories li a{
@@ -71,11 +71,10 @@ h1{
     margin-right: 20px;
     padding: 5px 10px 5px 10px;
     color: white;
-    background-color: aquamarine;
+    background-color: #675ab4;
     border-radius: 0.5em;
     box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.39);
     display: block;
-    color: mediumseagreen;
     font-family: cursive;
 }
 
