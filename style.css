@@ -1,0 +1,109 @@
+header{
+    border-bottom: 1px solid black;
+}
+
+#div_header{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#div_header .header_items{
+    flex: 1;
+}
+
+#div_main{
+    margin: auto;
+    width: fit-content;
+}
+
+#section_category{
+    margin-top: 35px;
+    display: flex;
+}
+
+#div_main>section{
+    margin-top: 60px;
+}
+
+
+input{
+    width: 100%;
+    height: 30px;
+    padding: 1px 5px 1px 5px;
+}
+
+img[alt="Twing_sembol"]{
+    width: 100px;
+    float: left;
+}
+
+img[src="Template.jpg"]{
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.39);
+    border-radius: 15px 50px;
+}
+
+main img:hover{
+    box-shadow: 4px 6px 7px 2px rgba(0, 0, 0, 0.39);
+}
+ol{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: cursive;
+}
+li{
+    display: inline-block;
+    position: relative;
+}
+
+h1{
+    color: darkorange;
+    font-family: cursive;
+}
+.list_categories li a{
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: aquamarine;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.39);
+    display: block;
+    color: mediumseagreen;
+    font-family: cursive;
+}
+
+.list_categories li a:hover{
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.39);
+}
+.list_categories{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header_link{
+    display: inline;
+    margin-right: 40px;
+}
+
+.img_choices{
+    width: 200px;
+}
+
+.li_choices{
+    position: relative;
+    margin-right: 50px;
+}
+
+.img_div{    
+    position: absolute;
+    bottom: 30px;
+    left: 56px;
+    border-bottom-style: dashed;
+}
