@@ -3,7 +3,7 @@ header{
 }
 
 #div_header{
-    width: 70%;
+    width: 77%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@ header{
 
 #div_main{
     margin: auto;
-    width: fit-content;
+    width: 77%;
 }
 
 #section_category{
@@ -65,7 +65,7 @@ h1{
     color: red;
     font-family: cursive;
 }
-.list_categories li a{
+#list_categories li a{
     width: 100px;
     text-align: center;
     margin-right: 20px;
@@ -78,10 +78,10 @@ h1{
     font-family: cursive;
 }
 
-.list_categories li a:hover{
+#list_categories li a:hover{
     box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.39);
 }
-.list_categories{
+#list_categories{
     margin-top: 0;
     margin-bottom: 0;
 }
