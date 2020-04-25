@@ -47,25 +47,19 @@ img[src="Template.jpg"]{
 main img:hover{
     box-shadow: 4px 6px 7px 2px rgba(0, 0, 0, 0.39);
 }
-ol{
-    list-style-type: none;
-    padding-inline-start: 0;
-}
 
 a{
+    display: inline-block;
     text-decoration: none;
     font-family: cursive;
-}
-li{
-    display: inline-block;
-    position: relative;
 }
 
 h1{
     color: red;
     font-family: cursive;
 }
-#list_categories li a{
+
+#section_categories a{
     width: 100px;
     text-align: center;
     margin-right: 20px;
@@ -74,15 +68,14 @@ h1{
     background-color: #675ab4;
     border-radius: 0.5em;
     box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.39);
-    display: block;
     font-family: cursive;
 }
 
-#list_categories li a:hover{
+#section_categories a:hover{
     box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.39);
 }
-#list_categories{
-    margin-top: 0;
+#section_categories{
+    margin-top: 35px;
     margin-bottom: 0;
 }
 
@@ -105,4 +98,8 @@ h1{
     bottom: 30px;
     left: 56px;
     border-bottom-style: dashed;
+}
+
+.nav_images{
+    display: flex;
 }
